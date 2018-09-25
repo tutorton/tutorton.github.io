@@ -1,4 +1,22 @@
-.row-centered {
+html, body {
+	height: 100%;
+	width: 100%;
+	background-color: #E9EBF8;
+}
+
+.power_box {
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 100px;
+	background-color: #E9EBF8;
+}
+
+.col-md {
+	background-color: #FEFFFE;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.22);
+}
+
+.row-centered { 
 	margin: auto; 
 	max-width: 500px;
 }
