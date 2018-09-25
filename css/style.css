@@ -5,18 +5,13 @@ html, body {
 }
 
 #imgscreen {
-    position:fixed;
-    padding:0;
-    margin:0;
-
-    top:0;
-    left:0;
-
-    width: 100%;
-    height: 100%;
+    margin: auto;
+    margin-top: 100px;
+    width: 500px;
+    height: 500px;
+    z-index: 9999;
     background-image: url('../img/T.png');
     background-repeat: no-repeat;
-    z-index: 9999;
 }
 
 .power_box {
@@ -24,19 +19,20 @@ html, body {
 	margin-right: 10%;
 	margin-top: 100px;
 	background-color: #E9EBF8;
+    display: none;
 }
 
 #product{
     color: white;
     background-color: #333;
+    margin: 5px;
     height: 280px;
     width: 280px;
-    margin: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.22);
 }
 
 #product:hover{
-    background-color: #08BDBD;
+    background-color: #2eb2ff;
     color: #011638;
     cursor: pointer;
 }
@@ -44,7 +40,8 @@ html, body {
 
 .row-centered { 
 	margin: auto; 
-	max-width: 500px;
+	width: 100%;
+    justify-content:center;
 }
 
 a,
@@ -53,4 +50,5 @@ a:visited,
 a:hover,
 a:active{
     text-decoration: none;
+    color: white;
 }
