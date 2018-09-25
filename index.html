@@ -18,25 +18,17 @@
   <div class="container power_box" align="center">
 
       <div class="row row-centered justify-content-center" align="center">
-        <div class="col-xs-12 col-sm-6 col-md-4 offset-md-2" id="product" align="center">
-          <a href="http://tutorton.anvil.app">
+        <div class="col-xs-12 col-sm-6 col-md-4 offset-md-2 math-product" id="product" align="center">
                 <h3 style="margin-top: 50px;">Math</h3>
-          </a>
         </div>
-        <div class="col-xs-12 col-sm-6 col-md-4 offset-md-2" id="product" align="center">
-         <a href="http://tutortonenglish.anvil.app">
+        <div class="col-xs-12 col-sm-6 col-md-4 offset-md-2 english-product" id="product" align="center">
             	<h3 style="margin-top: 50px;">English</h3>
-         </a>
         </div>
-        <div class="col-xs-12 col-sm-6 col-md-4 offset-md-2" id="product" align="center">
-         <a href="http://tutortonpython.anvil.app">
+        <div class="col-xs-12 col-sm-6 col-md-4 offset-md-2 python-product" id="product" align="center">
             	<h3 style="margin-top: 50px;">Python</h3>
-         </a>
         </div>
-        <div class="col-xs-12 col-sm-6 col-md-4 offset-md-2" id="product" align="center">
-          <a href="http://tutortonvideo.anvil.app">
+        <div class="col-xs-12 col-sm-6 col-md-4 offset-md-2 video-product" id="product" align="center">
             	<h3 style="margin-top: 50px;">Videography</h3>
-          </a>
         </div>
       </div>
 
@@ -58,6 +50,18 @@
 		$(document).ready( function() {
 			$("#imgscreen").fadeOut(2000, function() {
 				$(".power_box").fadeIn("slow");
+			});
+			$('.math-product').click(function(){
+			   window.location.href='http://tutorton.anvil.app';
+			});
+			$('.english-product').click(function(){
+			   window.location.href='http://tutortonenglish.anvil.app';
+			});
+			$('.python-product').click(function(){
+			   window.location.href='http://tutortonpython.anvil.app';
+			});
+			$('.video-product').click(function(){
+			   window.location.href='http://tutortonvideo.anvil.app';
 			});
 		});
 </script>  
