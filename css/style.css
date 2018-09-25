@@ -11,15 +11,17 @@ html, body {
 	background-color: #E9EBF8;
 }
 
-.col-md {
-	background-color: #FEFFFE;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.22);
+#product{
+    color: white;
+    background-color: #333;
+    height: 340px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.22);
+}
+#product:hover{
+    background-color: #08BDBD;
+    color: #011638;
 }
 
-.col-md:hover {
-	color: white;
-	background-colot: #1be7ff;
-}
 
 .row-centered { 
 	margin: auto; 
