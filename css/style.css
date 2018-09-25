@@ -4,6 +4,19 @@ html, body {
 	background-color: #E9EBF8;
 }
 
+#imgscreen {
+    position:fixed;
+    padding:0;
+    margin:0;
+
+    top:0;
+    left:0;
+
+    width: 100%;
+    height: 100%;
+    background-image: url('../img/T.png');
+}
+
 .power_box {
 	margin-left: 10%;
 	margin-right: 10%;
